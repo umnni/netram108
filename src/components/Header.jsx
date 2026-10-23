@@ -28,7 +28,7 @@ export default function Header() {
           aria-label="Netram Home"
         >
           <img
-            src={`${import.meta.env.BASE_URL}images/logo.png`}
+            src="/images/logo.png"
             alt="Netram Logo"
           />
         </a>

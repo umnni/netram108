@@ -1531,3 +1531,1023 @@ h4 {
     transition-duration: .01ms !important;
   }
 }
+/* ==========================================
+   NETRAM — DIWALI OFFER 2026
+========================================== */
+
+/* HERO LAYOUT */
+
+.premium-hero-grid {
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  gap: 45px;
+}
+
+.premium-hero-copy {
+  min-width: 0;
+}
+
+/* FESTIVE LABEL */
+
+.hero-festive-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  color: var(--gold, #d2b166);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+/* HERO PRICING CARDS */
+
+.premium-price-pills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.premium-price-pills .hero-offer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+  min-height: 220px;
+  padding: 20px;
+  border: 1px solid rgba(210, 177, 102, 0.45);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.055);
+  color: #fff;
+  text-decoration: none;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background 0.3s ease;
+}
+
+.hero-offer-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--gold, #d2b166);
+  background: rgba(210, 177, 102, 0.12);
+}
+
+.hero-offer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hero-offer-size {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.premium-price-pills .hero-offer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 8px;
+  border-radius: 3px;
+  background: var(--gold, #d2b166);
+  color: #173b2b;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.hero-offer-prices {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 18px 0;
+}
+
+.hero-old-price,
+.hero-new-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero-old-price > span,
+.hero-new-price > span {
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero-old-price del {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+}
+
+.hero-new-price strong {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(23px, 2vw, 31px);
+  line-height: 1.15;
+  color: var(--gold, #d2b166);
+  white-space: nowrap;
+}
+
+.hero-offer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(210, 177, 102, 0.25);
+  color: var(--gold, #d2b166);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.hero-offer-bottom svg {
+  flex-shrink: 0;
+}
+
+/* ==========================================
+   INDIVIDUAL PLOT — DIWALI PRICING
+========================================== */
+
+.diwali-price-box {
+  overflow: hidden;
+  margin: 25px 0;
+  border: 1px solid #ded2bc;
+  border-radius: 10px;
+  background: #fffaf2;
+  box-shadow: 0 12px 35px rgba(23, 59, 43, 0.06);
+}
+
+.diwali-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px;
+  background: #173b2b;
+  color: #d2b166;
+}
+
+.diwali-box-header > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.diwali-price-content {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 20px;
+  align-items: center;
+  padding: 25px 20px;
+}
+
+.diwali-before,
+.diwali-after {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.diwali-before > span,
+.diwali-after > span {
+  font-size: 11px;
+  color: #777369;
+}
+
+.diwali-before del {
+  font-size: 19px;
+  font-weight: 600;
+  color: #99938a;
+  white-space: nowrap;
+}
+
+.diwali-after strong {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(25px, 2.6vw, 36px);
+  line-height: 1.15;
+  color: #173b2b;
+  white-space: nowrap;
+}
+
+.diwali-saving {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: #eaf2e9;
+  color: #24633f;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* ==========================================
+   AMENITIES & LIFESTYLE
+========================================== */
+
+.netram-amenities {
+  position: relative;
+  overflow: hidden;
+  padding: 110px 0;
+  background: #f8f3e8;
+}
+
+.netram-amenities::before {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  top: -200px;
+  right: -180px;
+  border-radius: 50%;
+  background: rgba(210, 177, 102, 0.1);
+  pointer-events: none;
+}
+
+.amenities-intro {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+  gap: 90px;
+}
+
+.amenities-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #b68b35;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.amenities-intro-copy h2 {
+  margin: 25px 0;
+  color: #173b2b;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(42px, 5vw, 72px);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.16;
+}
+
+.amenities-intro-copy h2 em {
+  color: #b68b35;
+  font-weight: 500;
+}
+
+.amenities-divider {
+  width: 75px;
+  height: 2px;
+  margin: 26px 0;
+  background: #b68b35;
+}
+
+.amenities-intro-copy > p {
+  max-width: 480px;
+  color: #777369;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.amenities-explore {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #b68b35;
+  color: #173b2b;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: gap 0.3s ease;
+}
+
+.amenities-explore:hover {
+  gap: 23px;
+  color: #b68b35;
+}
+
+/* FOUR LIFESTYLE CATEGORIES */
+
+.lifestyle-categories {
+  border-top: 1px solid #d8cbb3;
+}
+
+.lifestyle-category {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 27px 8px;
+  border-bottom: 1px solid #d8cbb3;
+  transition: padding 0.3s ease;
+}
+
+.lifestyle-category:hover {
+  padding-left: 18px;
+}
+
+.lifestyle-number {
+  min-width: 35px;
+  color: #b68b35;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.lifestyle-category-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 20px;
+  color: #173b2b;
+}
+
+.lifestyle-category-info svg {
+  color: #b68b35;
+}
+
+.lifestyle-category-info h3 {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.lifestyle-arrow {
+  color: #b68b35;
+}
+
+/* AMENITIES HEADING */
+
+.amenities-list-heading {
+  margin: 100px 0 35px;
+  text-align: center;
+}
+
+.amenities-list-heading h3 {
+  margin: 18px 0 0;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(34px, 4vw, 53px);
+  font-weight: 500;
+  color: #173b2b;
+}
+
+.amenities-list-heading h3 em {
+  color: #b68b35;
+  font-weight: 500;
+}
+
+/* SIX AMENITIES CARDS */
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.amenity-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 290px;
+  padding: 30px;
+  overflow: hidden;
+  border: 1px solid #e5dac7;
+  border-radius: 5px;
+  background: #fffdf8;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.amenity-card:hover {
+  transform: translateY(-7px);
+  border-color: #d2b166;
+  box-shadow: 0 18px 40px rgba(23, 59, 43, 0.08);
+}
+
+.amenity-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.amenity-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #d9c8a8;
+  border-radius: 50%;
+  color: #173b2b;
+  background: #f8f3e8;
+}
+
+.amenity-number {
+  color: #b68b35;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.amenity-card h3 {
+  margin: 0 0 13px;
+  color: #173b2b;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.amenity-card p {
+  margin: 0;
+  color: #777369;
+  font-size: 13px;
+  line-height: 1.85;
+}
+
+.amenity-card-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #b68b35;
+  transition: width 0.35s ease;
+}
+
+.amenity-card:hover .amenity-card-line {
+  width: 100%;
+}
+
+/* ==========================================
+   VERTICAL STICKY WHATSAPP BUTTON
+========================================== */
+
+.netram-whatsapp-tab {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  width: 63px;
+  min-height: 225px;
+  padding: 17px 12px;
+
+  background: #18ce64;
+  color: #fff;
+
+  border-radius: 16px 0 0 16px;
+  box-shadow: -5px 8px 25px rgba(0, 0, 0, 0.15);
+
+  text-decoration: none;
+  transform: translateY(-50%);
+
+  transition:
+    background 0.3s ease,
+    width 0.3s ease;
+}
+
+.netram-whatsapp-tab:hover {
+  width: 72px;
+  background: #0eaf52;
+  color: #fff;
+}
+
+.netram-whatsapp-tab > span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  writing-mode: vertical-rl;
+}
+
+.netram-whatsapp-tab > svg {
+  flex-shrink: 0;
+}
+
+/* ==========================================
+   RESPONSIVE — TABLET
+========================================== */
+
+@media (max-width: 1100px) {
+  .premium-hero-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 30px;
+  }
+
+  .premium-price-pills {
+    grid-template-columns: 1fr;
+  }
+
+  .premium-price-pills .hero-offer-card {
+    min-height: 0;
+  }
+
+  .amenities-intro {
+    gap: 45px;
+  }
+
+  .amenities-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ==========================================
+   RESPONSIVE — MOBILE
+========================================== */
+
+@media (max-width: 760px) {
+  .premium-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .premium-price-pills {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .premium-price-pills .hero-offer-card {
+    min-height: 215px;
+    padding: 14px;
+  }
+
+  .hero-offer-size {
+    font-size: 19px;
+  }
+
+  .hero-offer-badge {
+    font-size: 7px;
+  }
+
+  .hero-new-price strong {
+    font-size: 22px;
+    white-space: normal;
+  }
+
+  .hero-old-price del {
+    font-size: 14px;
+  }
+
+  .hero-offer-bottom {
+    font-size: 10px;
+  }
+
+  .diwali-price-content {
+    gap: 12px;
+  }
+
+  .diwali-before del {
+    font-size: 16px;
+  }
+
+  .diwali-after strong {
+    font-size: 26px;
+    white-space: normal;
+  }
+
+  .netram-amenities {
+    padding: 75px 0;
+  }
+
+  .amenities-intro {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .amenities-intro-copy h2 {
+    font-size: clamp(40px, 9vw, 58px);
+  }
+
+  .amenities-list-heading {
+    margin-top: 75px;
+  }
+
+  .amenities-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .amenity-card {
+    min-height: 250px;
+    padding: 25px;
+  }
+
+  .netram-whatsapp-tab {
+    width: 45px;
+    min-height: 170px;
+    gap: 10px;
+    padding: 13px 8px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .netram-whatsapp-tab > span {
+    font-size: 12px;
+  }
+
+  .netram-whatsapp-tab > svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .netram-whatsapp-tab:hover {
+    width: 48px;
+  }
+}
+
+/* ==========================================
+   VERY SMALL SCREENS
+========================================== */
+
+@media (max-width: 390px) {
+  .premium-price-pills {
+    grid-template-columns: 1fr;
+  }
+
+  .premium-price-pills .hero-offer-card {
+    min-height: 0;
+  }
+
+  .diwali-price-content {
+    grid-template-columns: 1fr;
+  }
+
+  .lifestyle-category {
+    gap: 12px;
+  }
+
+  .lifestyle-category-info {
+    gap: 12px;
+  }
+
+  .lifestyle-category-info h3 {
+    font-size: 21px;
+  }
+}
+/* ==========================================
+   DIWALI HERO CARDS — DESIGN FIX
+========================================== */
+
+/* Remove unwanted styling inherited from old price pills */
+
+.premium-price-pills .hero-offer-card span {
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  white-space: normal;
+  font-size: inherit;
+}
+
+/* Cards */
+
+.premium-price-pills .hero-offer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  min-width: 0;
+  min-height: 265px;
+  padding: 24px;
+  border: 1px solid rgba(210, 177, 102, 0.4);
+  border-radius: 12px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.075),
+    rgba(255, 255, 255, 0.025)
+  );
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Top row */
+
+.hero-offer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.premium-price-pills .hero-offer-size {
+  color: #fff;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 24px !important;
+  font-weight: 600;
+}
+
+.premium-price-pills .hero-offer-badge {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 10px !important;
+  border-radius: 4px;
+  background: #d2b166 !important;
+  color: #173b2b;
+  font-family: "DM Sans", sans-serif;
+  font-size: 9px !important;
+  font-weight: 800;
+  white-space: nowrap !important;
+}
+
+/* Price content */
+
+.hero-offer-prices {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 0;
+}
+
+.hero-old-price,
+.hero-new-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.premium-price-pills .hero-old-price > span,
+.premium-price-pills .hero-new-price > span {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: "DM Sans", sans-serif;
+  font-size: 11px !important;
+  font-weight: 500;
+}
+
+.hero-old-price del {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.hero-new-price strong {
+  display: block;
+  color: #e5c477;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(25px, 2.3vw, 34px);
+  font-weight: 600;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+/* Savings row */
+
+.hero-offer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(210, 177, 102, 0.3);
+}
+
+.premium-price-pills .hero-offer-bottom > span {
+  color: #d2b166;
+  font-size: 12px !important;
+  font-weight: 700;
+}
+
+/* Hover */
+
+.hero-offer-card:hover {
+  transform: translateY(-5px);
+  border-color: #d2b166;
+  background: rgba(210, 177, 102, 0.1);
+}
+
+/* ==========================================
+   WHATSAPP — COMPACT DESIGN
+========================================== */
+
+.netram-whatsapp-tab {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+
+  width: 30px;
+  min-height: 90px;
+  padding: 9px 5px;
+
+  background: #18ce64;
+  color: #fff;
+
+  border-radius: 7px 0 0 7px;
+  box-shadow: -3px 4px 12px rgba(0, 0, 0, 0.14);
+
+  transform: translateY(-50%);
+  transition: background 0.3s ease;
+}
+
+.netram-whatsapp-tab:hover {
+  width: 30px;
+  background: #10af52;
+}
+
+.netram-whatsapp-tab > span {
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  writing-mode: vertical-rl;
+}
+
+.netram-whatsapp-tab > svg,
+.netram-whatsapp-tab > img {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* ==========================================
+   RIGHT-SIDE OVERFLOW CONTROL
+========================================== */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  overflow-x: clip;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.premium-hero,
+.netram-amenities,
+.netram-location,
+.premium-bottom-cta {
+  max-width: 100%;
+}
+
+/* ==========================================
+   MOBILE IMPROVEMENTS
+========================================== */
+
+@media (max-width: 760px) {
+  .premium-price-pills {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .premium-price-pills .hero-offer-card {
+    min-width: 0;
+    min-height: 230px;
+    padding: 14px;
+    gap: 14px;
+  }
+
+  .hero-offer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .premium-price-pills .hero-offer-size {
+    font-size: 20px !important;
+  }
+
+  .premium-price-pills .hero-offer-badge {
+    font-size: 8px !important;
+    padding: 6px 8px !important;
+  }
+
+  .hero-offer-prices {
+    gap: 15px;
+  }
+
+  .premium-price-pills .hero-old-price > span,
+  .premium-price-pills .hero-new-price > span {
+    font-size: 10px !important;
+  }
+
+  .hero-old-price del {
+    font-size: 14px;
+  }
+
+  .hero-new-price strong {
+    font-size: clamp(20px, 5.5vw, 26px);
+    white-space: normal;
+  }
+
+  .premium-price-pills .hero-offer-bottom > span {
+    font-size: 10px !important;
+  }
+
+  /* Smaller WhatsApp tab */
+
+  .netram-whatsapp-tab {
+    width: 26px;
+    min-height: 82px;
+    padding: 8px 4px;
+    gap: 6px;
+    border-radius: 6px 0 0 6px;
+  }
+
+  .netram-whatsapp-tab:hover {
+    width: 26px;
+  }
+
+  .netram-whatsapp-tab > span {
+    font-size: 7px;
+    letter-spacing: 0.04em;
+  }
+
+  .netram-whatsapp-tab > svg,
+  .netram-whatsapp-tab > img {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  .premium-price-pills {
+    grid-template-columns: 1fr;
+  }
+
+  .premium-price-pills .hero-offer-card {
+    min-height: 0;
+  }
+}
+/* ==========================================
+   NETRAM — 8 AMENITIES GRID
+========================================== */
+
+@media (min-width: 1101px) {
+  .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .amenity-card {
+    min-height: 310px;
+    padding: 25px;
+  }
+
+  .amenity-card h3 {
+    font-size: 23px;
+    line-height: 1.3;
+  }
+
+  .amenity-card p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  .amenity-icon {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1100px) {
+  .amenities-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .amenities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .amenity-card {
+    min-height: 245px;
+  }
+}
