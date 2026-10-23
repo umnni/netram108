@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="netram-footer-brand">
             <a href="#home" aria-label="Netram Home">
               <img
-                src="/images/logo.png"
+                src={`${import.meta.env.BASE_URL}images/logo.png`}
                 alt="Netram Logo"
               />
             </a>
