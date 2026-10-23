@@ -34,7 +34,7 @@ const plots = [
     oldPrice: "₹54.99 Lakh",
     price: "₹42.99 Lakh",
     saving: "₹12 Lakh",
-    image: "/images/108.jpeg",
+    image: `${import.meta.env.BASE_URL}images/108.jpeg`,
     description:
       "A thoughtfully sized address to build a home that is truly yours.",
     number: "01",
@@ -46,7 +46,7 @@ const plots = [
     oldPrice: "₹99.99 Lakh",
     price: "₹79.99 Lakh",
     saving: "₹20 Lakh",
-    image: "/images/200.jpeg",
+    image: `${import.meta.env.BASE_URL}images/200.jpeg`,
     description:
       "More space for larger plans, greener moments and an elevated lifestyle.",
     number: "02",
